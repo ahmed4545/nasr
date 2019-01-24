@@ -5,14 +5,14 @@ console.log("Welcome");
  
  client.on("guildMemberRemove", member => {
   member.createDM().then(function (channel) {
-  return channel.send(`https://discord.gg/TBsGj28`)
+  return channel.send(`https://discord.gg/vrvf9xu`)
 }).catch(console.error)
 
 })
  
 client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
-  return channel.send(`https://discord.gg/TBsGj28`) 
+  return channel.send(`https://discord.gg/vrvf9xu`) 
 }).catch(console.error)
 })
 client.login(process.env.BOT_TOKEN);
